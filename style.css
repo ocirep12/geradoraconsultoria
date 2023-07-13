@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ a {
+	text-decoration: none;
+}
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+img{
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  display: flex;
+  width: 100%;
+  
+}
+
+.container{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex !important;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+h2{
+  width: 100%;
+
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+p{
+  max-width: 700px;
+  padding: 20px 0;
+}
+
+.contato{
+  font-weight: bold;
+}
